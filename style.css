@@ -510,8 +510,9 @@ footer .chapter-icon { width: 28px; height: 28px; margin: 0 auto 16px; display: 
   }
   .day-marker .date-num { font-size: 32px; }
   .day-marker .date-mon { margin-top: 0; }
-  .day-body li { flex-direction: column; gap: 4px; }
-  .label { padding-top: 0; }
+  .day-body li { display: block; }
+  .day-body li .label { display: block; margin-bottom: 4px; padding-top: 0; }
+  .day-body li [data-lucide] { top: 3px; margin-right: 4px; }
   footer { padding: 32px 24px 48px; }
 }
 
