@@ -503,9 +503,13 @@ footer .chapter-icon { width: 28px; height: 28px; margin: 0 auto 16px; display: 
     border-bottom-color: rgba(245,240,230,.2);
     border-right: none;
   }
+  .day-card { display: flex; flex-direction: column; }
+  .day-marker { order: 1; }
+  .day-body { order: 2; }
   .stay-bubble {
     position: static;
-    margin-top: 12px;
+    order: 3;
+    margin-top: 16px;
     align-self: flex-start;
   }
   .day-marker .date-num { font-size: 32px; }
