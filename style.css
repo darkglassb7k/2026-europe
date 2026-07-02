@@ -317,35 +317,82 @@ a:hover { color: var(--sc-accent); border-bottom-color: var(--sc-accent); }
   margin-bottom: 16px;
   letter-spacing: 0.02em;
 }
-.day-body ul {
-  list-style: none;
+/* three-column time-of-day slots */
+.day-slots {
   display: grid;
-  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed rgba(44,42,38,0.1);
 }
-.day-body li {
-  font-size: 15px;
+.slot { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.slot-label {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sc-fg-mute);
+  font-weight: 500;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--sc-stone);
+}
+.slot ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.slot li {
+  font-size: 14px;
   color: var(--sc-fg-soft);
-  display: flex;
-  gap: 12px;
-  align-items: baseline;
-  padding: 6px 0;
-  border-bottom: 1px dashed rgba(44,42,38,0.07);
+  line-height: 1.6;
 }
-.day-body li:last-child { border-bottom: none; }
-.day-body li strong { color: var(--sc-fg); font-weight: 500; }
+.slot li strong { color: var(--sc-fg); font-weight: 500; }
+.slot li .item-time {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--sc-wood-dark);
+  letter-spacing: 0.04em;
+  margin-right: 4px;
+  font-weight: 500;
+}
+.slot.empty ul::before {
+  content: "—";
+  color: var(--sc-fg-mute);
+  opacity: 0.35;
+  font-size: 16px;
+  padding-top: 4px;
+}
 
-/* lucide inline icons inside list items */
-.day-body li [data-lucide] {
-  width: 16px;
-  height: 16px;
+/* dark-card variants */
+.day-card.forest .day-slots,
+.day-card.deep .day-slots { border-top-color: rgba(245,240,230,0.15); }
+.day-card.forest .slot-label,
+.day-card.deep .slot-label {
+  color: var(--sc-wood-soft);
+  border-bottom-color: rgba(245,240,230,0.2);
+}
+.day-card.forest .slot li,
+.day-card.deep .slot li { color: rgba(245,240,230,0.85); }
+.day-card.forest .slot li strong,
+.day-card.deep .slot li strong { color: var(--sc-cream); }
+.day-card.forest .slot li .item-time,
+.day-card.deep .slot li .item-time { color: var(--sc-wood-soft); }
+.day-card.forest .slot li a,
+.day-card.deep .slot li a {
+  color: var(--sc-wood-soft);
+  border-bottom-color: rgba(232,214,184,0.4);
+}
+
+/* lucide inline icons inside slot items */
+.slot li [data-lucide] {
+  width: 14px;
+  height: 14px;
   stroke-width: 1.8;
   flex-shrink: 0;
   position: relative;
-  top: 3px;
+  top: 2px;
   color: var(--sc-forest);
+  margin-right: 3px;
 }
-.day-card.forest .day-body li [data-lucide],
-.day-card.deep .day-body li [data-lucide] {
+.day-card.forest .slot li [data-lucide],
+.day-card.deep .slot li [data-lucide] {
   color: var(--sc-wood-soft);
 }
 .chip [data-lucide] {
@@ -514,9 +561,15 @@ footer .chapter-icon { width: 28px; height: 28px; margin: 0 auto 16px; display: 
   }
   .day-marker .date-num { font-size: 32px; }
   .day-marker .date-mon { margin-top: 0; }
-  .day-body li { display: block; }
-  .day-body li .label { display: block; margin-bottom: 4px; padding-top: 0; }
-  .day-body li [data-lucide] { top: 3px; margin-right: 4px; }
+  .day-slots {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+  .slot { gap: 8px; }
+  .slot-label { padding-bottom: 6px; }
+  .slot li [data-lucide] { top: 3px; margin-right: 4px; }
   footer { padding: 32px 24px 48px; }
 }
 
