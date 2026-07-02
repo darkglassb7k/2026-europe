@@ -6,7 +6,6 @@ A single-page static site for pyw's 2026-09-15 to 2026-09-30 Netherlands · Belg
 
 - `index.html` — content
 - `style.css` — Scandinavian / Nordic minimalist style
-- `todo.csv` — outstanding booking tasks (short, not a master data source)
 - Lucide icons via CDN (version pinned)
 - No build step, no framework
 
