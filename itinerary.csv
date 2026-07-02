@@ -1,0 +1,65 @@
+date,day,slot,category,item,time,needs_booking,booked,notes
+2026-09-15,Tue,Evening,Transit,TPE → AMS,23:10,Y,,International flight
+2026-09-16,Wed,Morning,Transit,Arrive AMS,07:40,,,
+2026-09-16,Wed,Afternoon,Visit,Canal belt walk,,,,Free walk
+2026-09-16,Wed,Stay,Hotel,Leonardo Hotel,,Y,,3 nights (9/16-9/18)
+2026-09-17,Thu,Morning,Transit,Amsterdam → Leiden,,,,NS train (buy same day OK)
+2026-09-17,Thu,Afternoon,Visit,Leiden old town,,,,
+2026-09-17,Thu,Evening,Transit,Leiden → Amsterdam,,,,NS train
+2026-09-17,Thu,Stay,Hotel,Leonardo Hotel,,,,Continue
+2026-09-18,Fri,Morning,Fitness,CrossFit,,,,Drop-in at local box
+2026-09-18,Fri,Afternoon,Visit,Zaanse Schans,,,,NS train + walk
+2026-09-18,Fri,Stay,Hotel,Leonardo Hotel,,,,Continue
+2026-09-19,Sat,Morning,Transit,Amsterdam → Antwerp,,,,Ian driving
+2026-09-19,Sat,Afternoon,Visit,Antwerp old town,,,,
+2026-09-19,Sat,Afternoon,Visit,Kloosterstraat,,,,Antique street
+2026-09-19,Sat,Afternoon,Visit,Chocolate Nation,,Y,,Check if timed entry required
+2026-09-19,Sat,Stay,Friend,Ian's place,,,,
+2026-09-20,Sun,Morning,Transit,AMS → LIN,08:20 → 10:00,Y,,Flight to Milan Linate
+2026-09-20,Sun,Morning,Bags,Milano Centrale luggage,11:15,Y,,KiPoint or Radical Storage
+2026-09-20,Sun,Afternoon,Visit,Duomo di Milano,,,,Free walk-around; rooftop paid
+2026-09-20,Sun,Afternoon,Visit,Galleria Vittorio Emanuele II,,,,
+2026-09-20,Sun,Evening,Transit,Milan → Verona,19:15 → 20:28,Y,,Trenitalia/Italo (book early)
+2026-09-20,Sun,Evening,Stay,Moxy Verona check-in,20:45,Y,,2 nights (9/20-9/21)
+2026-09-21,Mon,Morning,Transit,Verona → Venezia,06:22 → 07:50,Y,,Trenitalia (book early)
+2026-09-21,Mon,Morning,Visit,Piazza San Marco,,,,
+2026-09-21,Mon,Afternoon,Visit,Rialto Bridge,,,,
+2026-09-21,Mon,Afternoon,Visit,Venezia back canals,,,,
+2026-09-21,Mon,Evening,Transit,Venice → Verona,20:10 → 21:38,Y,,Trenitalia (book early)
+2026-09-21,Mon,Stay,Hotel,Moxy Verona,,,,Continue
+2026-09-22,Tue,Afternoon,Transit,Verona → Firenze SMN,14:22 → 15:54,Y,,Trenitalia (book early)
+2026-09-22,Tue,Afternoon,Stay,Ruby Bea Hotel check-in,,Y,,4 nights (9/22-9/25)
+2026-09-22,Tue,Afternoon,Visit,Accademia Gallery,,Y,,David - book timed entry
+2026-09-22,Tue,Evening,Visit,Piazza della Signoria,,,,
+2026-09-22,Tue,Evening,Visit,Palazzo Vecchio,,Y,,Check if you want to enter
+2026-09-23,Wed,Morning,Visit,The Uffizi,08:15,Y,,Reserved
+2026-09-23,Wed,Morning,Visit,Ponte Vecchio,,,,Free walk
+2026-09-23,Wed,Afternoon,Visit,Boboli Gardens,,Y,,PassePartout combo option
+2026-09-23,Wed,Afternoon,Visit,Pitti Palace,,Y,,PassePartout combo option
+2026-09-23,Wed,Evening,Visit,Piazzale Michelangelo,,,,Free sunset viewpoint
+2026-09-23,Wed,Stay,Hotel,Ruby Bea Hotel,,,,Continue
+2026-09-24,Thu,Morning,Visit,Pisa,,Y,,Tower climb requires timed ticket
+2026-09-24,Thu,Afternoon,Visit,Basilica of Santa Croce,,Y,,Paid entry
+2026-09-24,Thu,Stay,Hotel,Ruby Bea Hotel,,,,Continue
+2026-09-25,Fri,Morning,Transit,Florence → Siena,,Y,,Flixbus / Autolinee Toscane
+2026-09-25,Fri,Afternoon,Visit,Siena old town,,,,
+2026-09-25,Fri,Evening,Transit,Siena → Florence,,Y,,Return bus
+2026-09-25,Fri,Stay,Hotel,Ruby Bea Hotel,,,,Continue
+2026-09-26,Sat,Morning,Visit,Duomo climb,09:00,Y,,Brunelleschi Pass booked
+2026-09-26,Sat,Afternoon,Visit,Carro Matto,15:30,,,Free public parade
+2026-09-26,Sat,Evening,Transit,Florence → Rome Termini,19:43 → 21:19,Y,,High-speed (book early)
+2026-09-26,Sat,Evening,Stay,Glance in Rome check-in,,Y,,4 nights (9/26-9/29)
+2026-09-27,Sun,Morning,Visit,Parco degli Acquedotti,,,,Free park
+2026-09-27,Sun,Afternoon,Visit,Spanish Steps,,,,Free
+2026-09-27,Sun,Afternoon,Visit,Trevi Fountain,,,,Free
+2026-09-27,Sun,Evening,Visit,Pantheon,,Y,,€5 entry (can buy same-day)
+2026-09-27,Sun,Stay,Hotel,Glance in Rome,,,,Continue
+2026-09-28,Mon,Morning,Visit,Vatican Museums,08:30,Y,,Reserved with 2hr guided tour
+2026-09-28,Mon,Morning,Visit,Sistine Chapel,,,,Included with Vatican Museums
+2026-09-28,Mon,Afternoon,Visit,St. Peter's dome climb,15:30,Y,,Book skip-the-line online
+2026-09-28,Mon,Afternoon,Visit,St. Peter's Basilica,,,,Free entry (queue)
+2026-09-28,Mon,Stay,Hotel,Glance in Rome,,,,Continue
+2026-09-29,Tue,Morning,Visit,Colosseum Walks of Italy,,Y,,Reserved (in-depth tour)
+2026-09-29,Tue,Stay,Hotel,Glance in Rome,,,,Continue
+2026-09-30,Wed,Morning,Transit,FCO → TPE,11:00,Y,,International flight
+2026-09-30,Wed,Morning,Transit,Rome → FCO (Leonardo Express),,,,~30min from Termini
