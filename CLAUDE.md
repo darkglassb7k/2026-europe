@@ -6,8 +6,13 @@ A single-page static site for pyw's 2026-09-15 to 2026-09-30 Netherlands · Belg
 
 - `index.html` — content
 - `style.css` — Scandinavian / Nordic minimalist style
+- `todo.csv` — outstanding booking tasks (short, not a master data source)
 - Lucide icons via CDN (version pinned)
 - No build step, no framework
+
+## Planning source of truth
+
+Master trip planning lives in the user's wife's Google Sheets (not in this repo). This site is a public-facing showcase; the wife's sheet is the working plan. When the user shares updates (screenshots, pasted text), diff against the wife's sheet convention and update `index.html` accordingly. Do NOT reintroduce a master `itinerary.csv` — that workflow was retired.
 
 ## How to update the itinerary
 
