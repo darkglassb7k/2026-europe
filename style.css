@@ -252,6 +252,14 @@ a:hover { color: var(--sc-accent); border-bottom-color: var(--sc-accent); }
   font-weight: 500;
   letter-spacing: 0.01em;
   max-width: 240px;
+  text-decoration: none;
+  border-bottom: none;
+  transition: filter .2s, transform .2s;
+}
+a.stay-bubble:hover {
+  filter: brightness(0.96);
+  transform: translateY(-1px);
+  border-bottom: none;
 }
 .stay-bubble [data-lucide] {
   width: 14px;
